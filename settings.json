@@ -4,7 +4,7 @@
   "realtimestt_model": "large-v3",
   "realtimestt_device": "cuda",
   "realtimestt_post_speech_silence_duration": 0.09,
-  "realtimestt_silero_sensitivity": 0.6,
+  "realtimestt_silero_sensitivity": 0.5,
   "realtimestt_webrtc_sensitivity": 3,
   "realtimestt_beam_size": 5,
   "realtimestt_batch_size": 16,

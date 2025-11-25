@@ -7,6 +7,7 @@
 Windy ASR은 RealtimeSTT를 사용한 실시간 음성 인식과 Ollama를 통한 번역 기능을 제공하는 데스크톱 애플리케이션입니다.
 
 ![Windy ASR Screenshot](assets/screenshot.png)
+![Windy ASR Screenshot 2](assets/screenshot_2.png)
 
 ### 주요 기능
 
@@ -51,7 +52,7 @@ Windy ASR은 RealtimeSTT를 사용한 실시간 음성 인식과 Ollama를 통�
 
 4. **Ollama 모델 설정**
    
-   이 프로젝트는 커스텀 시스템 프롬프트가 적용된 `yanolja-rosetta` 모델을 사용합니다.
+   이 프로젝트는 커스텀 시스템 프롬프트가 적용된 [yanolja-rosetta](https://huggingface.co/yanolja/YanoljaNEXT-Rosetta-4B-2511-GGUF) 모델을 사용합니다.
 
    ```bash
    # Ollama 설치 (이미 설치된 경우 생략)
@@ -166,3 +167,4 @@ ollama create yanolja-rosetta -f ollma/Modelfile
 - [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT)
 - [Ollama](https://ollama.ai/)
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
+- [Yanolja Rosetta Model](https://huggingface.co/yanolja/YanoljaNEXT-Rosetta-4B-2511-GGUF)

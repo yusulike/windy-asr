@@ -26,7 +26,7 @@ class WindyASRApp(ctk.CTk):
     def __init__(self):
         super().__init__()
         
-        self.title("RealtimeSTT Client (with Ollama Translation)")
+        self.title("Windy ASR")
         self.geometry("900x750")
         
         self.client = None
