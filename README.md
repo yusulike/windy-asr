@@ -25,7 +25,7 @@ Windy ASR은 RealtimeSTT를 사용한 실시간 음성 인식과 Ollama를 통�
 
 1. **저장소 클론**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/yusulike/windy-asr
    cd windy-asr
    ```
 
@@ -68,7 +68,7 @@ Windy ASR은 RealtimeSTT를 사용한 실시간 음성 인식과 Ollama를 통�
 
 **uv를 사용하는 경우:**
 ```bash
-uv run python app.py
+uv run app.py
 ```
 
 **일반 Python을 사용하는 경우:**
