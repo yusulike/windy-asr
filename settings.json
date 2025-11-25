@@ -1,0 +1,18 @@
+{
+  "sample_rate": 44100,
+  "chunk_duration": 0.1,
+  "realtimestt_model": "RoachLin/kotoba-whisper-v2.2-faster",
+  "realtimestt_device": "cuda",
+  "realtimestt_post_speech_silence_duration": 0.09,
+  "realtimestt_silero_sensitivity": 0.98,
+  "realtimestt_webrtc_sensitivity": 3,
+  "realtimestt_beam_size": 5,
+  "realtimestt_batch_size": 16,
+  "realtimestt_min_length_of_recording": 0.1,
+  "translation_enabled": true,
+  "ollama_model": "yanolja-rosetta",
+  "language": "ja",
+  "use_extended_logging": false,
+  "silero_use_onnx": false,
+  "silero_deactivity_detection": true
+}
