@@ -6,6 +6,8 @@
 
 Windy ASR은 RealtimeSTT를 사용한 실시간 음성 인식과 Ollama를 통한 번역 기능을 제공하는 데스크톱 애플리케이션입니다.
 
+![Windy ASR Screenshot](assets/screenshot.png)
+
 ### 주요 기능
 
 - 🎙️ **실시간 음성 인식**: RealtimeSTT를 사용한 로컬 STT 엔진
